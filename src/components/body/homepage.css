@@ -1,0 +1,9 @@
+.home{
+    display: flex;
+    /* border: 2px solid peru ; */
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    justify-content: space-between;
+    height: auto;
+}

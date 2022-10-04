@@ -1,0 +1,12 @@
+.container{
+    /* border: 2px solid black; */
+    width: 50%;
+    padding-right: 1em;
+}
+.container-heading{
+    color: white;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
