@@ -1,6 +1,6 @@
 {
-  "name": "code-fraggers",
   "homepage": "http://HetviSoni.github.io/code-fraggers",
+  "name": "code-fraggers",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
