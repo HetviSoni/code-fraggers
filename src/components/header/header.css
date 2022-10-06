@@ -18,9 +18,27 @@
     width: 25%;
     margin-left: 1.5em;
     margin-top: 0.4em;
+    z-index: 100;
+ 
+
 }
 .signIn {
     margin-right: 2.5em;
+    background-color: rgba(67, 127, 252, 1);
+    border: none;
+    border-radius: 0.4em;
+    font-weight: 550;
+    color: white;
+    padding: 12px 30px;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .sign-Up{
+    /* margin-right: 2.5em; */
+    /* margin-left: 400px; */
     background-color: rgba(67, 127, 252, 1);
     border: none;
     border-radius: 0.4em;
