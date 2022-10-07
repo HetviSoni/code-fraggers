@@ -5,8 +5,9 @@ const Header = props =>{
     return (
     <header className="header">
         <h1 className="logoimg">
-            <img src={Logo} alt='Code fraggers logo'></img>
+            <img src={Logo} className="log" alt='Code fraggers logo'></img>
         </h1>
+       
         <button className="signIn">
             Sign In
         </button>
