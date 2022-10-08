@@ -1,11 +1,11 @@
 import Boy from "./boy";
 import Container from "./container";
 import './homepage.css';
-const HomePage=props=>{
+const HomePage = props => {
     return (
         <div className="home">
-            <Boy classname="img"/>
-            <Container/>
+            <Boy classname="img" />
+            <Container />
         </div>
     )
 }
