@@ -1,5 +1,5 @@
-import './subcontainer.css';
-import Button from './button';
+import '../../styles/subcontainer.css';
+import Button from './Button';
 const Subcontainer1= props=>{
     const buttonText='Start Recruiting';
     return (

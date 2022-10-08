@@ -1,6 +1,6 @@
 import Logo from "../../assets/logohorizontal.png";
+import '../../styles/header.css';
 
-import './header.css';
 const Header = props =>{
     return (
     <header className="header">
@@ -13,4 +13,4 @@ const Header = props =>{
         </button>
     </header>)
 };
-export default Header
+export default Header;

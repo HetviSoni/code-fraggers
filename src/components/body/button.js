@@ -1,4 +1,5 @@
-import '../header/header.css';
+import '../../styles/header.css';
+
 const Button=props=>{
     return <button className="signIn">
         {props.text}
