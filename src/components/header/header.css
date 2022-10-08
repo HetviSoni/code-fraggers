@@ -36,3 +36,8 @@
     display: inline-block;
     font-size: 16px;
   }
+  .signIn:hover,
+  .signIn:focus {
+    background-color: skyblue;
+    transition: 0.2s ease-in;
+  }
