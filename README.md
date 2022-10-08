@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+<p align="center">
+	<img src="https://hetvisoni.github.io/code-fraggers/static/media/logohorizontal.7d18bf5b307d17f05e43.png" width=400px height=300px>
+	<h1 align="center"> Code Fraggers </h1>
+		<p align="center">
+			<b>This is the main repository of the Code Fraggers website. </b> 
+		</p>  
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About :
 
-## Available Scripts
+Code Fraggers is a platform for solving Data Structures and Algorithms questions while being incetivized for your work. The main aim of the platform is to make learning and practicing DSA questions both fun and rewardinng.
 
-In the project directory, you can run:
+## Contributing Prerequisites
 
-### `npm start`
+### System requirement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Any system with basic configuration.
+2. Operating System : Windows / Linux / Mac
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Software requirement
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Node.js
+3. Git
 
-### `npm run build`
+### Skill requirement
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Git & Github
+2. React.js
+3. HTML
+4. CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Useful Links
+[Figma files](https://www.figma.com/file/jbHM5hTNpHikFhxmuFPZqM/CodeFraggersFinal?node-id=0%3A1) <br>
+[Live Website](https://hetvisoni.github.io/code-fraggers/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Running the Project Locally
 
-### `npm run eject`
+### Setting Up The Application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the project with `git clone`
+2. `cd` into it with `cd /code-fraggers`
+3. Run `npm install`
+4. You are good to go! Now you can start the project by typing `npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributors :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<a  href  =  "https://github.com/HetviSoni/code-fraggers/graphs/contributors">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img  src  =  "https://contrib.rocks/image?repo=HetviSoni/code-fraggers"/>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</a>
