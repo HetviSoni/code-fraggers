@@ -2,13 +2,14 @@
     margin-top: 2em;
     border: 2px solid red;
 } */
-body{
-  background-color:#003049;
+body {
+	background-color: #003049;
 }
-.mainbody{
-  margin-top: 6em;
-  /* margin-leftt: 3em; */
-  /* border: 2px solid yellow; */
+.mainbody {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /* .header{
   border: 2px solid red;

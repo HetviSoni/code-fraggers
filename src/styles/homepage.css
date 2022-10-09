@@ -1,9 +1,10 @@
-.home{
-    display: flex;
-    /* border: 2px solid peru ; */
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 2em;
-    justify-content: space-between;
-    height: auto;
+.home {
+	width: 100%;
+	max-width: 1440px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4rem;
+	padding: 2rem;
+	min-height: calc(100vh - 5rem);
 }

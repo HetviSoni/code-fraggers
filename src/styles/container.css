@@ -1,12 +1,20 @@
-.container{
-    /* border: 2px solid black; */
-    width: 50%;
-    padding-right: 1em;
+.container {
+	/* border: 2px solid black; */
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 4rem;
 }
-.container-heading{
-    color: white;
+.container-heading {
+	color: white;
+	font-size: 1.75rem;
 }
-.container2{
-    display: flex;
-    justify-content: space-between;
+
+.container2 {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
