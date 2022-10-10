@@ -1,4 +1,4 @@
-import Boy from "./Boy";
+import Boy from "./boy";
 import Container from "./Container";
 import '../../styles/homepage.css';
 
