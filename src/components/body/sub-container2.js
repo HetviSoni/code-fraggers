@@ -1,10 +1,10 @@
 import '../../styles/subcontainer.css';
-import Button from './Button';
+import Button from './button';
 
 const Subcontainer2= props=>{
     const buttonText='Get Fragging';
     return (
-        <div>
+        <div className='subcontainer'>
             <h3 className="heading">For Fraggers</h3>
             <p >
                 10k+ Leetcode fraggers get <br/>

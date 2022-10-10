@@ -1,6 +1,6 @@
 import '../../styles/container.css';
-import Subcontainer1 from './Sub-container1';
-import Subcontainer2 from './Sub-container2';
+import Subcontainer1 from './sub-container1';
+import Subcontainer2 from './sub-container2';
 
 const Container = (props) =>{
     return (
