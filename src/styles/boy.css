@@ -1,13 +1,8 @@
-section{
+.boy{
     /* border: 2px solid yellow; */
-    padding-top: 1.5em;
-    padding-left: 1em;
-}
-.boyImg{
-    /* border: 2px solid brown; */
-    width: 90%;
-    height: 95%;
-    /* padding: 2em; */
-    /* margin-left: 3em;
-    margin-top: 3em; */
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

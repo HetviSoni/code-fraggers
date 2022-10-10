@@ -1,29 +1,36 @@
 .header{
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 5rem;
     color: white;
     background-color: #003049;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     /* padding: 0 10%; */
     
 }
+
+.header--container{
+  width: 100%;
+  max-width: 1440px;
+  height: 5rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logoimg img{
     /* border: 2px solid red; */
-    height: 25%;
-    width: 25%;
-    margin-left: 1.5em;
-    margin-top: 0.4em;
-    z-index: 100;
- 
-
+    width: 10rem;
 }
 .signIn {
-    margin-right: 2.5em;
     background-color: rgba(67, 127, 252, 1);
     border: none;
     border-radius: 0.4em;

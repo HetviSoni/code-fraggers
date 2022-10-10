@@ -6,7 +6,10 @@ body{
   background-color:#003049;
 }
 .mainbody{
-  margin-top: 6em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* margin-leftt: 3em; */
   /* border: 2px solid yellow; */
 }
