@@ -1,16 +1,26 @@
 .subcontainer{
-    display: flex;
+    /* border: 2px solid yellow; */
+    /* display: flex; */
     justify-content: center;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     flex-direction: column;
+    width: auto;
+    height: 16.3rem;
     gap: 1rem;
 }
 .heading{
     color:white;
     font-weight: 600;
     font-size: 24px;
+    padding-top: 0.5rem;
 }
 .subcontainer p{
     color: white;
+    padding-top: 0.2rem;
+    padding-bottom: 1.7rem;
+    /* border: 2px solid purple; */
 }
-
+.subcontainer Button{
+    width: 100%;
+    /* border: 2px solid orange; */
+}

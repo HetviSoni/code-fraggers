@@ -6,8 +6,8 @@ const Subcontainer1= props=>{
         <div className='subcontainer'>
             <h3 className="heading">For Companies</h3>
             <p>
-                Get the best fragger for <br/>
-                your company with minimal <br/>
+                Get the best fragger for your <br/>
+                company with minimal <br/>
                 effort
             </p>    
             <Button text={buttonText}/>

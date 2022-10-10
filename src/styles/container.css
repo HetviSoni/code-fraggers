@@ -1,12 +1,12 @@
 .container{
     /* border: 2px solid black; */
     flex: 1;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
 }
 .container-heading{
     color: white;
@@ -17,4 +17,5 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border: 2px solid black; */
 }
