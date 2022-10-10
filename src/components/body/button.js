@@ -1,8 +1,6 @@
-import '../../styles/header.css';
+import "../../styles/header.css";
 
-const Button=props=>{
-    return <button className="signIn">
-        {props.text}
-    </button>
-}
+const Button = (props) => {
+	return <button className={props.type}>{props.text}</button>;
+};
 export default Button;
