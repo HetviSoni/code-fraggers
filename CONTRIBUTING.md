@@ -9,6 +9,7 @@ Below you will find the process and workflow used to review and merge your chang
 
 ## Step 1 : Find an issue
 - Take a look at the Existing Issues or create your **own** Issues!
+- **Do have a look at design files : https://www.figma.com/file/jbHM5hTNpHikFhxmuFPZqM/CodeFraggersFinal?node-id=0%3A1 as we need to make the website as per the design only.**
 - Wait for the Issue to be assigned to you after which you can start working on it.
 - Note : Every change in this project should/must have an associated issue. 
 

@@ -1,5 +1,6 @@
-import './subcontainer.css';
-import Button from './button';
+import '../../styles/subcontainer.css';
+import Button from './Button';
+
 const Subcontainer2= props=>{
     const buttonText='Get Fragging';
     return (

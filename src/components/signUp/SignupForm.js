@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 // import GoogleLogin from "react-google-login";
 // import { gapi } from "gapi-script";
 import Logo from '../../assets/logohorizontal.png'
-import "./signup.css";
+import "../../styles/signup.css";
 // import Button from "./button";
 const SignupForm = () => {
     const buttonText='Sign In';
