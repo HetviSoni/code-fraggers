@@ -25,7 +25,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 18px 48px;
+	padding: 12px 40px;
 	border-radius: 0.6rem;
 	font-size: 1rem;
 	font-family: "Poppins", sans-serif;
@@ -46,7 +46,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 18px 48px;
+	padding: 12px 40px;
 	border-radius: 0.6rem;
 	font-size: 1rem;
 	font-family: "Poppins", sans-serif;
