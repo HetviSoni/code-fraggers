@@ -1,50 +1,53 @@
-.header{
-    width: 100%;
-    height: 5rem;
-    color: white;
-    background-color: #003049;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding: 0 10%; */
-    
+.header {
+	width: 100%;
+	height: 5rem;
+	color: white;
+	background-color: #003049;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* padding: 0 10%; */
 }
 
-.header--container{
-  width: 100%;
-  max-width: 1440px;
-  height: 5rem;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.header--container {
+	width: 100%;
+	max-width: 1440px;
+	height: 5rem;
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.logoimg{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.logoimg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.logoimg img{
-    /* border: 2px solid red; */
-    width: 10rem;
+.logoimg img {
+	/* border: 2px solid red; */
+	width: 10rem;
 }
 .signIn {
-    background-color: rgba(67, 127, 252, 1);
-    border: none;
-    border-radius: 0.4em;
-    font-weight: 550;
-    color: white;
-    padding: 12px 30px;
-    font-style: normal;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-  .signIn:hover,
-  .signIn:focus {
-    background-color: skyblue;
-    transition: 0.2s ease-in;
-  }
+	background-color: rgba(67, 127, 252, 1);
+	border: none;
+	border-radius: 0.4em;
+	font-weight: 550;
+	color: white;
+	padding: 12px 30px;
+	font-style: normal;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: "Poppins", sans-serif;
+	cursor: pointer;
+	transition: all 0.25s ease-in-out;
+}
+.signIn:hover,
+.signIn:focus {
+	background-color: skyblue;
+	transition: 0.2s ease-in;
+	transition: all 0.25s ease-in-out;
+}
