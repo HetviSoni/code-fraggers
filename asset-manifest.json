@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/code-fraggers/static/css/main.1ff1c2ad.css",
-    "main.js": "/code-fraggers/static/js/main.12a7de93.js",
+    "main.css": "/code-fraggers/static/css/main.71066a14.css",
+    "main.js": "/code-fraggers/static/js/main.a3f3b448.js",
     "static/js/787.39cfa0fd.chunk.js": "/code-fraggers/static/js/787.39cfa0fd.chunk.js",
     "static/media/Frameboy.png": "/code-fraggers/static/media/Frameboy.aacf4fbe897b763df3f6.png",
     "static/media/logohorizontal.png": "/code-fraggers/static/media/logohorizontal.7d18bf5b307d17f05e43.png",
     "index.html": "/code-fraggers/index.html",
-    "main.1ff1c2ad.css.map": "/code-fraggers/static/css/main.1ff1c2ad.css.map",
-    "main.12a7de93.js.map": "/code-fraggers/static/js/main.12a7de93.js.map",
+    "main.71066a14.css.map": "/code-fraggers/static/css/main.71066a14.css.map",
+    "main.a3f3b448.js.map": "/code-fraggers/static/js/main.a3f3b448.js.map",
     "787.39cfa0fd.chunk.js.map": "/code-fraggers/static/js/787.39cfa0fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ff1c2ad.css",
-    "static/js/main.12a7de93.js"
+    "static/css/main.71066a14.css",
+    "static/js/main.a3f3b448.js"
   ]
 }
