@@ -2,7 +2,7 @@
   "homepage": "http://HetviSoni.github.io/code-fraggers",
   "name": "code-fraggers",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@testing-library/jest-dom": "^5.16.5",
