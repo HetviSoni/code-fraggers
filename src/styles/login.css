@@ -1,78 +1,91 @@
-* {
-    /* margin: 0; */
-    box-sizing: border-box;
+.lgimg{
+    position: absolute;
+    top:0;
+    left:0;
+    margin-top: 2px;
+    margin-left: 10px;
+    /* margin-left: 20px; */
 }
-
-/* @font-face {
-    font-family: "CustomFont";
-    src: url("../fonts/RolexLight.woff2");
-} */
-
-/* --------------------------- MOBILE VERSION ------------------------------ */
-/* .page {
-    height: 100vh;
+.logincontainer{
+    padding-top: 4rem;
+    padding-bottom: 7rem;
     width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    /* height: 32rem; */
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 0.75em;
-} */
+    justify-content: center;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(3px);
+    /* border:2px solid red; */
+   
+}
+.logincover {
+    width: 450px;
+    /* height: 550px; */
+    height: max-content;
+    padding-bottom: 3rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 1.5rem;
+    margin-top: 5rem;
+}
 .loginheading{
     text-align: center;
     /* padding-right: 2em; */
     /* width: 600px; */
     font-family: sans-serif;
-    border: 2px solid blue;
+
     color: #003049;
     /* font-weight: 600; */
-    font-size: 1.8em;
-    line-height: 38px;
-    /* margin-bottom: 0; */
+    font-size: 25px;
+    
+   margin-top:10px;
+   
 }
-
-.logincontainer{
-    width: 35rem;
-    /* height: 32rem; */
-    height: max-content;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    /* border:2px solid red; */
-    padding-top: 2.3em;
-    padding-bottom: 2em ;
+.loginsubcon{
+    
+   margin: auto;
+   margin-top: -3px;
+   width: 65%;
+   font-size: 12px;
 }
-.cover {
-    padding-top: 0.5em;
-    background-color: white;
-    border-radius: 1em;    
-    /* border: 2px solid yellow; */
-    width: 100%;
-    height: 100%;
+.lfullname{
+   padding-top: 2px;
+    
+    /* background-color: #2C2929; */
 }
-
-input {
-    border: 1px solid grey;
+.lfullname p{
+    font-size: 1.3em;
+}
+linput {
+    border: 1px solid rgb(194, 192, 192);
     /* background-color: rgb(229, 226, 226); */
     width: 100%;
-    height: 3em;
+    height: 1.8rem;
     border-radius: 0.25em;
     /* text-align: center; */
     padding-left: 1.5em;
     font-family: sans-serif;
-    /* font-size: 0.75em; */
-    margin-top: 0;
+    font-size: 1.40em;
+    /* margin-top: 2px; */
 }
 
 input:focus {
-    outline-color:black;
+    outline-color:rgb(80, 74, 74);
 }
 
 .login-btn {
     width: 100%;
-    height: 3em;
+    height: 3.2em;
     background-color: #003049;;
     display: flex;
     justify-content: center;
@@ -80,11 +93,12 @@ input:focus {
     transition: 0.5s;
     border-radius: 0.25em;
     cursor: pointer;
-    margin-top: 2em;
+    margin-top: 2.5em;
     color: white;
     font-weight: 600;
     line-height: 1.5em;
-    font-family: sans-serif;    
+    font-family: sans-serif;
+    font-size: 1.1em;    
 }
 
 .login-btn:hover { transform: scale(1.05);}
@@ -114,20 +128,15 @@ input:focus {
     transform: scale(1);
     transition: 1.5s;
 }
-.subcon{
-    margin: 0 auto;
-    border: 2px solid grey;
-    width: 75%;
-    margin-top: 3.5em;
-}
-.subcon p{
+
+.loginsubcon p{
     font-family: sans-serif;
     /* height: max-content; */
     /* line-height: 27px;  */
     color: #2C2929;
     font-weight: 550;
     /* border: 2px solid brown; */
-    margin-bottom: 0.4em;
+    /* margin-bottom: 0.4em; */
 }
 .forgot{
     text-align: right;
@@ -137,15 +146,20 @@ input:focus {
     font-size: small;
     margin-top: 0.2em;
 }
-.signUp{
-    padding-top: 0.3em;
-    text-align: center;
+.login{
+    /* background-color: blue; */
+    margin-top: 10px;
+    width: 100%;
+    font-size: 15px;
+    /* text-align: center; */
     font-family: sans-serif;
+    text-align: center;
     /* font-weight:bold; */
 }
-.signUp a{
+.login a{
     text-decoration: none;
     color: rgba(0, 48, 73, 1);
     font-weight: bold;
     font-family: sans-serif;
+    cursor: pointer;
 }

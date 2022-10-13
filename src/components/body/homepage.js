@@ -1,13 +1,18 @@
 import Boy from "./boy";
 import Container from "./container";
 import '../../styles/homepage.css';
+import Header from "../header/header";
+import { Fragment } from "react";
 
-const HomePage= (props) =>{
+const HomePage = (props) => {
     return (
-        <div className="home">
-            <Boy classname="img"/>
-            <Container className="home--content"/>
-        </div>
+        <section>
+            <Header />
+            <div className="home">
+                <Boy classname="img" />
+                <Container className="home--content" />
+            </div>
+        </section>
     )
 }
 export default HomePage;
