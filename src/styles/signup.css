@@ -70,7 +70,7 @@
    margin: auto;
    margin-top: -3px;
    width: 65%;
-   font-size: 12px;
+   font-size: 13px;
 }
 .fullname{
    padding-top: 2px;
@@ -112,7 +112,7 @@ input:focus {
     font-family: sans-serif;    
 }
 
-.login-btn:hover { transform: scale(1.05);}
+.signup-btn:hover { transform: scale(1.05);}
 
 .text {
     position: relative;
@@ -171,4 +171,5 @@ input:focus {
     color: rgba(0, 48, 73, 1);
     font-weight: bold;
     font-family: sans-serif;
+    cursor: pointer;
 }
