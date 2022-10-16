@@ -6,7 +6,7 @@
 		</p>  
 </p>
 
-## About :
+## About 
 
 Code Fraggers is a platform for solving Data Structures and Algorithms questions while being incetivized for your work. The main aim of the platform is to make learning and practicing DSA questions both fun and rewardinng.
 
