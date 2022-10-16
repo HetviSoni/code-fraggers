@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://hetvisoni.github.io/code-fraggers/static/media/logohorizontal.7d18bf5b307d17f05e43.png" width=600px height=300px>
+	<img src="https://hetvisoni.github.io/code-fraggers/static/media/logohorizontal.7d18bf5b307d17f05e43.png" width=700px height=300px>
 	<h1 align="center"> Code Fraggers </h1>
 		<p align="center">
 			<b>This is the main repository of the Code Fraggers website. </b> 
