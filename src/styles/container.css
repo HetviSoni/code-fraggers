@@ -1,21 +1,22 @@
-.container{
-    /* border: 2px solid black; */
-    flex: 1;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 1.5rem;
+.container {
+  /* border: 2px solid black; */
+  flex: 1;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
 }
-.container-heading{
-    color: white;
-    font-size: 1.75rem;
+.container-heading {
+  color: white;
+  font-size: 1.75rem;
 }
-.container2{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* border: 2px solid black; */
+.container2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px solid black; */
 }
