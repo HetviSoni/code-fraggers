@@ -21,9 +21,3 @@
     /* border: 2px solid black; */
 }
 
-@media screen and (max-width:600px) {
-    .container2, .container, .container-heading{
-        display: block;
-        text-align: center;
-    }
-}

@@ -26,12 +26,3 @@
 	/* border: 2px solid orange; */
 }
 
-@media screen and (max-width:600px) {
-    .subcontainer, .heading, .subcontainer p, .subcontainer Button{
-        display: block;	
-    }
-	.heading{
-		padding-top: 0.1rem;
-		margin-top: 100px;
-	}
-}
