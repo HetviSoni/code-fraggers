@@ -1,12 +1,12 @@
 <p align="center">
-	<img src="https://hetvisoni.github.io/code-fraggers/static/media/logohorizontal.7d18bf5b307d17f05e43.png" width=400px height=300px>
+	<img src="https://raw.githubusercontent.com/vinyashegde/code-fraggers/master/src/assets/logohorizontal.png" width=500px height=200px>
 	<h1 align="center"> Code Fraggers </h1>
 		<p align="center">
 			<b>This is the main repository of the Code Fraggers website. </b> 
 		</p>  
 </p>
 
-## About :
+## About 
 
 Code Fraggers is a platform for solving Data Structures and Algorithms questions while being incetivized for your work. The main aim of the platform is to make learning and practicing DSA questions both fun and rewardinng.
 
