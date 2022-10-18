@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/header/header";
 import HomePage from "./components/body/homepage";
 import SignupForm from "./components/signUp/SignupForm";
-import LoginForm from "./components/signIn/Login";
+import LoginForm from "./components/signIn/login";
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
