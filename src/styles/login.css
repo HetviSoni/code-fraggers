@@ -163,3 +163,118 @@ input:focus {
     font-family: sans-serif;
     cursor: pointer;
 }
+p.error-text{
+    color: red;
+}
+
+
+
+.new-message-box {
+    margin: 15px 0;
+    padding-left: 20px;
+    margin-bottom: 25px!important;
+}
+
+.new-message-box p{
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+.info-tab {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+}
+
+.info-tab {
+    float: left;
+    margin-left: -23px;
+}
+
+.info-tab i::before {
+    width: 24px;
+    height: 24px;
+    box-shadow: inset 12px 0 13px rgba(0,0,0,0.5);
+}
+
+.info-tab i::after {
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+    bottom: -18px;
+}
+
+.info-tab i::before, .info-tab i::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -17px;
+    transform: rotateX(60deg);
+}
+
+ .tip-box-success, .tip-box-danger {
+    padding: 12px 8px 3px 26px;
+}
+
+.new-message-box-success {
+    background: #eeeeee;
+    padding: 3px;
+    margin: 10px 0;
+}
+
+.tip-icon-success {
+    background: #8BC34A;
+}
+
+.tip-box-success {
+    color: #33691E;
+    background: #DCEDC8;
+}
+
+.tip-icon-success::before {
+    font-size: 25px;
+    content:"\f00c";
+    top: 8px;
+    left: 11px;
+    font-family: FontAwesome;
+    position: absolute;
+    color: white;
+}
+
+.tip-icon-success i::before {
+    background: #8BC34A;
+}
+
+.new-message-box-danger {
+    background: #eeeeee;
+    padding: 3px;
+    margin: 10px 0;
+}
+
+.tip-icon-danger {
+    background: #f44336;
+}
+
+.tip-box-danger {
+    color: #b71c1c;
+    background: #FFCCBC;
+}
+
+.tip-icon-danger::before {
+    font-size: 25px;
+    content:"\f00d";
+    top: 8px;
+    left: 11px;
+    font-family: FontAwesome;
+    position: absolute;
+    color: white;
+}
+
+.tip-icon-danger i::before {
+    background: #f44336;
+}
