@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "../../styles/login.css";
 import Logo from '../../assets/logohorizontal.png'
 import { useNavigate } from "react-router-dom";
+import Boy from "../body/boy";
+import Container from "../body/container";
 
 const LoginForm = () => {
 
@@ -43,64 +45,71 @@ const LoginForm = () => {
     const history = useNavigate();
     return (
         <>
-            <section className="logincontainer">
-                <h1 className="logoimg lgimg">
-                    <img src={Logo} className="log" alt='Code fraggers logo' onClick={() => history("/code-fraggers/")}></img>
-                </h1>
-                <div className="logincover">
-                    <h1 className="loginheading">Sign In</h1>
-                    <div className="loginsubcon">
-                        <form onSubmit={handleSubmit}>
+            <div className="home">
 
-                            {(Object.keys(formErrors).length === 0 && isSubmit) ? <div className="row">
-                                <div className="col-xs-12 col-sm-6 col-sm-offset-3">
-                                    <div className="new-message-box">
-                                        <div className="new-message-box-success">
-                                            <div className="info-tab tip-icon-success" title="success"><i></i></div>
-                                            <div className="tip-box-success">
-                                                <p>Successfully signed up!</p>
+                <Boy classname="img" fade={false} />
+                <Container className="home--content" />
+                </div>
+                <section className="logincontainer">
+                    <h1 className="logoimg lgimg">
+                        <img src={Logo} className="log" alt='Code fraggers logo' onClick={() => history("/code-fraggers/")}></img>
+                    </h1>
+                    <div className="logincover">
+                        <h1 className="loginheading">Sign In</h1>
+                        <div className="loginsubcon">
+                            <form onSubmit={handleSubmit}>
+
+                                {(Object.keys(formErrors).length === 0 && isSubmit) ? <div className="row">
+                                    <div className="col-xs-12 col-sm-6 col-sm-offset-3">
+                                        <div className="new-message-box">
+                                            <div className="new-message-box-success">
+                                                <div className="info-tab tip-icon-success" title="success"><i></i></div>
+                                                <div className="tip-box-success">
+                                                    <p>Successfully signed up!</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                                : <div></div>}
+                                    : <div></div>}
 
-                            {(Object.keys(formErrors).length !== 0 && isSubmit) ? <div className="row">
-                                <div className="col-xs-12 col-sm-6 col-sm-offset-3">
-                                    <div className="new-message-box">
-                                        <div className="new-message-box-danger">
-                                            <div className="info-tab tip-icon-danger" title="error"><i></i></div>
-                                            <div className="tip-box-danger">
-                                                <p>Sign in failed, please try again!</p>
+                                {(Object.keys(formErrors).length !== 0 && isSubmit) ? <div className="row">
+                                    <div className="col-xs-12 col-sm-6 col-sm-offset-3">
+                                        <div className="new-message-box">
+                                            <div className="new-message-box-danger">
+                                                <div className="info-tab tip-icon-danger" title="error"><i></i></div>
+                                                <div className="tip-box-danger">
+                                                    <p>Sign in failed, please try again!</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                                : <div></div>}
+                                    : <div></div>}
 
-                            <div className="lfullname">
-                                <p>Email</p>
-                                <input type="text" placeholder="Email" name="email" value={formValues.email} onChange={handleChange} />
+                                <div className="lfullname">
+                                    <p>Email</p>
+                                    <input type="text" placeholder="Email" name="email" value={formValues.email} onChange={handleChange} />
+                                </div>
+                                <p className="error-text">{formErrors.email}</p>
+                                <div className="lfullname">
+                                    <p>Password</p>
+                                    <input type="password" placeholder="Password" name="password" value={formValues.password} onChange={handleChange} />
+                                </div>
+                                <p className="error-text">{formErrors.password}</p>
+                                <div className="forgot">
+                                    Forgot password?
+                                </div>
+                                <button className="login-btn">Sign in</button>
+                            </form>
+                            <div className="login" >
+                                Don't have an account?<a onClick={() => history("/code-fraggers/register")}>Sign up</a>
                             </div>
-                            <p className="error-text">{formErrors.email}</p>
-                            <div className="lfullname">
-                                <p>Password</p>
-                                <input type="password" placeholder="Password" name="password" value={formValues.password} onChange={handleChange} />
-                            </div>
-                            <p className="error-text">{formErrors.password}</p>
-                            <div className="forgot">
-                                Forgot password?
-                            </div>
-                            <button className="login-btn">Sign in</button>
-                        </form>
-                        <div className="login" >
-                            Don't have an account?<a onClick={() => history("/code-fraggers/register")}>Sign up</a>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+           
+
         </>
     )
 }

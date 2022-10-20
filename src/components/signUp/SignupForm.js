@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Logo from '../../assets/logohorizontal.png'
 import "../../styles/signup.css";
 import { useNavigate } from "react-router-dom";
+import Boy from "../body/boy";
+import Container from "../body/container";
 const SignupForm = () => {
 
     const initialValues = { fullName: "", userName: "", address: "", email: "", password: "" };
@@ -49,6 +51,13 @@ const SignupForm = () => {
     const history = useNavigate();
 
     return (
+        <>
+             <div className="home">
+
+<Boy classname="img" fade={false} />
+<Container className="home--content" />
+</div>
+        
         <section className="signupcontainer">
             <h1 className="logoimg lgimg">
                 <img src={Logo} className="log" alt='Code fraggers logo' onClick={() => history("/code-fraggers/")} ></img>
@@ -128,7 +137,8 @@ const SignupForm = () => {
                 </div>
             </form>
         </section>
-
+        
+</>
 
     )
 }

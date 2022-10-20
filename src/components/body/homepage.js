@@ -9,7 +9,7 @@ const HomePage = (props) => {
         <section>
             <Header />
             <div className="home">
-                <Boy classname="img" />
+                <Boy classname="img" fade={true} />
                 <Container className="home--content" />
             </div>
         </section>
