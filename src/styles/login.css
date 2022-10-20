@@ -145,6 +145,12 @@ input:focus {
     font-family: sans-serif;
     font-size: small;
     margin-top: 0.2em;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(20, 102, 144, 1);
 }
 .login{
     /* background-color: blue; */

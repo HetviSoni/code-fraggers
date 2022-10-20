@@ -91,7 +91,7 @@ const LoginForm = () => {
                             </div>
                             <p className="error-text">{formErrors.password}</p>
                             <div className="forgot">
-                                Forgot password?
+                                <a href="#">Forgot password?</a> 
                             </div>
                             <button className="login-btn">Sign in</button>
                         </form>
