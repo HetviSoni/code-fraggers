@@ -18,5 +18,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding: 15px;
     /* border: 2px solid black; */
 }
+
