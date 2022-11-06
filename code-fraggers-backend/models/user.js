@@ -34,6 +34,21 @@ const userSchema = mongoose.Schema({
     required: true,
     minlength: 8,
   },
+  easySolved: {
+    type: Number,
+    default: 0,
+    required: true,
+  },
+  mediumSolved: {
+    type: Number,
+    default: 0,
+    required: true,
+  },
+  hardSolved: {
+    type: Number,
+    default: 0,
+    required: true,
+  },
   token: {
     type: String,
   },
@@ -100,5 +115,13 @@ userSchema.methods.deleteToken = function (token, cb) {
     cb(null, user);
   });
 };
+
+// // add leetcode data
+// userSchema.methods.addLeetData = async (username) => {
+//   const leetFullData = await fetch(
+//     `https://leetcode-stats-api.herokuapp.com/${username}`
+//   );
+//   const leetFullDataJson = await leetFullData.json();
+// };
 
 module.exports = mongoose.model("User", userSchema);

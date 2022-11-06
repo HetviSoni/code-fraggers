@@ -2,10 +2,20 @@ const router = require("express").Router();
 const User = require("../models/user.js");
 const jwt = require("jsonwebtoken");
 const { auth } = require(".././middlewares/auth");
+const fetch = require("node-fetch");
 
 // adding new user (sign-up route)
 router.post("/register", async (req, res) => {
-  const newUser = new User(req.body);
+  let obj = req.body;
+  const leetFullData = await fetch(
+    `https://leetcode-stats-api.herokuapp.com/${req.body.username}`
+  );
+  const leetFullDataJson = await leetFullData.json();
+  obj["easySolved"] = leetFullDataJson.easySolved;
+  obj["mediumSolved"] = leetFullDataJson.mediumSolved;
+  obj["hardSolved"] = leetFullDataJson.hardSolved;
+
+  let newUser = new User(obj);
 
   let user = await User.findOne({ email: req.body.email });
   if (user) {
@@ -26,9 +36,29 @@ router.post("/register", async (req, res) => {
       message: "Metamask public address already exits",
     });
   }
+
   try {
     const savedUser = newUser.save();
     res.status(201).json(savedUser);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.put("/updateLeetData", auth, async (req, res) => {
+  let user = await User.findOne(req.user._id);
+  const leetFullData = await fetch(
+    `https://leetcode-stats-api.herokuapp.com/${req.body.username}`
+  );
+  const leetFullDataJson = await leetFullData.json();
+  user["easySolved"] = leetFullDataJson.easySolved;
+  user["mediumSolved"] = leetFullDataJson.mediumSolved;
+  user["hardSolved"] = leetFullDataJson.hardSolved;
+  try {
+    await user.save();
+    res.status(200).send({
+      message: "successfully updated",
+    });
   } catch (err) {
     res.status(500).json(err);
   }
